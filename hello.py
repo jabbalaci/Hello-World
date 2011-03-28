@@ -1,7 +1,12 @@
 #!/usr/bin/env python
 
-def main():
-    print "Hello, World!"
+import sys
+
+def main(name):
+    print "Hello, %s!" % name
 
 if __name__ == "__main__":
-    main()
+    name = 'World'
+    if len(sys.argv) > 1:
+        name = sys.argv[1]
+    main(name)
