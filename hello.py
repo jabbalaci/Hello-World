@@ -3,7 +3,7 @@
 import sys
 
 def main(name):
-    print "Hello, %s!" % name
+    print "Hello, %s!" % (name)
 
 if __name__ == "__main__":
     name = 'World'
