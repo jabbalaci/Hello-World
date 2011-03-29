@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
 import sys
-import re
 
 def main(name):
     print "Hello, %s!" % name
